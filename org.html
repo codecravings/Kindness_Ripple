@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="org.js" defer></script>
+</head>
+<body>
+    <div class="glassmorphism-container">
+        <form id="sign-in-form">
+            <input type="text" id="username" placeholder="Username" required>
+            <div id="username-check">Checking...</div>
+            <input type="text" id="organization" placeholder="Name of Organization" required>
+            <input type="password" id="admin-password" placeholder="Admin Password" required>
+            <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="otp" placeholder="Enter OTP">
+            <button type="button" onclick="sendOTP()">Send OTP</button>
+            <input type="file" id="profile-image" accept="image/*">
+            <input type="file" id="background-image" accept="image/*">
+            <div id="members-container"></div> <!-- New container for members -->
+            <button type="button" onclick="addMember()">Add Member</button>
+            
+            <button type="submit">Finish</button>
+        </form>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
